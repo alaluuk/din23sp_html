@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms examples</title>
+</head>
+<body>
+    <h1>HTML Forms</h1>
+    <p>
+        Here is a simple form.
+        <form action="">
+            <label for="fn">Firstname</label>
+            <br>
+            <input type="text" id="fn">
+            <br>
+            <label for="ln">Lastname</label>
+            <br>
+            <input type="text" id="ln">
+            <br>
+            <input type="submit" name="" id="" value="Save">
+        </form>
+    </p>
+    <h2>Place holder</h2>
+    <p>
+        If you don't want to use labels as above, you can use placeholders.
+        <form action="">
+            <input type="text" placeholder="your firstname">
+            <br>
+            <input type="text" placeholder="your lastname">
+            <br>
+            <input type="submit" value="Save">
+        </form>
+    </p>
+    <h2>Form inside table</h2>
+    <form action="">
+        <label for="fnb">Firstname</label>
+        <input type="text" id="fnb">
+        <br>
+        <label for="lnb">Lastname</label>
+        <input type="text" id="lnb">
+        <br>
+        <label for="ageb">Age</label>
+        <input type="number" min="0" id="ageb">
+        <br>
+        <input type="submit" name=""  value="Save">
+    </form>
+    <p>
+    The form was uggly, so we can use a table to make it looks like better.
+    <table>
+        <tr><td><label for="fnc">Firstname</label></td> <td><input type="text" id="fnc"></td></tr>
+        <tr><td><label for="lnc">Lastname</label></td><td><input type="text" id="lnc"></td></tr>
+        <tr><td><label for="agec">Age</label></td><td><input type="number" min="0" id="agec"></td></tr>
+        <tr><td></td><td><input type="submit" name=""  value="Save"></td></tr>
+    </table>
+    </p>
+
+    <h2>Radiobuttons</h2>
+    <form action="">
+        <label for="">Choose your language</label>
+        <br>
+        <input type="radio" name="lang">English <br>
+        <input type="radio" name="lang">Finnish <br>
+        <label for="">Choose your city</label>
+        <br>
+        <input type="radio" name="city">Helsinki <br>
+        <input type="radio" name="city">Oulu <br>
+        <input type="radio" name="city">Tampere <br>
+        <input type="submit" value="Send">
+    </form>
+
+    <h3>Checkboxes</h3>
+    <form action="">
+        <label for="">Choose your programming languages</label>
+        <br>
+        <input type="checkbox">Java <br>
+        <input type="checkbox">C# <br>
+        <input type="checkbox">C++ <br>
+        <input type="checkbox">JavaScript <br>
+        <input type="submit" value="Send" name="" id="">
+    </form>
+    
+    <h2>Dropdown</h2>
+    <form action="">
+        <label for="">Choose your country</label>
+        <select name="" id="">
+            <option value="">Finnland</option>
+            <option value="">Sweden</option>
+            <option value="">Norway</option>
+            <option value="">Denmark</option>
+            <option value="">Iceland</option>
+        </select>
+    </form>
+
+    <h3>Multi selection</h3>
+    <form action="">
+        <label for="">Choose your country</label>
+        <select name="" id="" multiple>
+            <option value="">Finnland</option>
+            <option value="">Sweden</option>
+            <option value="">Norway</option>
+            <option value="">Denmark</option>
+            <option value="">Iceland</option>
+        </select>
+    </form>
+
+    <h2>Text</h2>
+    <form action="">
+        <label for="">Write your opinion here</label> <br>
+        <textarea name="" id="" cols="60" rows="5"></textarea>
+    </form>
+</body>
+</html>
