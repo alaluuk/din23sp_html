@@ -1,0 +1,31 @@
+h1{
+    color: rgb(0, 139, 127);
+}
+h2{
+    font-size: 40px;
+}
+p{
+    font-size: 30px;
+}
+#mydiv1{
+    background-color: aqua;
+}
+#mydiv2{
+    background-color: chartreuse;
+}
+#myid1{
+    color: blueviolet;
+}
+#myid2{
+    color:darkgreen
+}
+#myid3{
+    color: brown;
+}
+.myclass1{
+    background-color: aquamarine;
+    border-style: solid;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding: 20px;
+}
